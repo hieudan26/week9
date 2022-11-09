@@ -36,7 +36,6 @@ function abortLaunch(launchId){
     return aborted;
 }
 function existLauncheWithId(launchId){
-
     return launches.has(launchId);
 }
 
